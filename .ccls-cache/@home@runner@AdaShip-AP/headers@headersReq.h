@@ -5,7 +5,11 @@
 #include <string>
 #include <iomanip>
 #include <vector>
+#include <algorithm>
 
-#include "board.h"
-#include "fileReader.h"
-#include "ships.h"
+#include "board.hpp"
+#include "fileReader.hpp"
+#include "ships.hpp"
+#include "com.hpp"
+#include "game.hpp"
+#include "constants.hpp"

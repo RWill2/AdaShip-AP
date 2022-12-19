@@ -1,8 +1,7 @@
-#include "./headers/headersReq.h"
-
-const std::string configFile = "adaship_config.ini";
+#include "headersReq.hpp"
 
 int main() {
-  readFile(configFile);
+  Game();//starts the game
+  //readFile(configFile);
   return 0;
 }

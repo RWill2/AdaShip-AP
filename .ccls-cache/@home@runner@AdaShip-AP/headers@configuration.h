@@ -2,17 +2,17 @@
 
 class configuration{
   public:
-  static configuration *getInstance(const int _boardWidth = 10, const int _boardHeight = 10);
+    static configuration *getInstance(const int &boardWidth = 10, const int &boardHeight = 10);
 
-  int boardWidth() const;
+    int boardWidth() const;
 
-  int boardHeight() const;
+    int boardHeight() const;
 
-  void boardDetails(int width, int height);
+    void setBoard(int width, int height);
 
   protected:
-  int boardWidth_;
-  int boardHeight_;
+    int boardWidth_;
+    int boardHeight_;
 
   private:
     configuration(const int boardWidth, const int boardHeight);

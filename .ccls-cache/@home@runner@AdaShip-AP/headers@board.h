@@ -6,6 +6,7 @@ class Board{
     int getWidth(void){return width_;}
     void setHeight(int height){height_ = height;}
     int getHeight(void){return height_;}
+    Board();
 
   private:
     int width_;

@@ -1,0 +1,1 @@
+const std::string configFile = "adaship_config.ini";

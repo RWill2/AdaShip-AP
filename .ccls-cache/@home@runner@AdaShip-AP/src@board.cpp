@@ -1,4 +1,4 @@
-#include "../headers/headersReq.h"
+#include "../headers/headersReq.hpp"
 
 // class Board{
 //     public:
@@ -11,3 +11,17 @@
 //       int width_;
 //       int height_;
 // };
+
+/*void buildBoard(int boardWidth, int boardHeight){
+  for(int i = 0; i < boardWidth; i++){
+    for(int j = 0; j < boardHeight; j++){
+      std::cout << "*";
+    }
+  }
+}*/
+
+Board::Board(){
+  for(int i = 0; i < boardWidth; i++){
+    
+  }
+}
